@@ -42,8 +42,8 @@ const Home: NextPage = () => {
           </div>
          </header>
          <div className='h-[70px] border-b-[1px] border-gray-300'></div>
-         <main className='px-24 min-h-screen'>
-          <div className='flex flex-row mt-[-36px]'>
+         <main className='px-[20px] min-h-screen max-w-[1280px] mx-auto'>
+          <div className='flex flex-row mt-[-36px] gap-[10px]'>
             <div className='w-72'>
               <div className='h-72 w-72 rounded-full border-2 border-gray-200 overflow-hidden'>
                 <img src='https://avatars.githubusercontent.com/u/8850541?v=4' alt='Profile Picture'/>
@@ -61,11 +61,27 @@ const Home: NextPage = () => {
                 <span className='text-gray-600'><strong className='font-semibold'>289</strong> followings</span>
               </div>
               <ul className=''>
-                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='business-outline' className='text-[18px]'/><span className='text-sm'>@CoralMango Pvt. Ltd.</span></li>
-                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='location-outline' className='text-[18px]'/><span className='text-sm'>Delhi</span></li>
-                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='mail-unread-outline' className='text-[18px]'/><span className='text-sm'>nirajkaushal.dev@gmail.com</span></li>
-                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='globe-outline' className='text-[18px]'/><span className='text-sm'>https://nirajkaushal.com</span></li>
+                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm'>@CoralMango Pvt. Ltd.</span></li>
+                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='location-outline' className='text-[18px] text-gray-500'/><span className='text-sm'>Delhi</span></li>
+                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='mail-unread-outline' className='text-[18px] text-gray-500'/><span className='text-sm'>nirajkaushal.dev@gmail.com</span></li>
+                <li className='mb-[8px] flex items-center gap-[8px]'><IonIcon name='globe-outline' className='text-[18px] text-gray-500'/><span className='text-sm'>https://nirajkaushal.com</span></li>
               </ul>
+            </div>
+            <div className=' h-screen w-full'>
+              <div className='px-[40px]'>
+                <ul className='flex gap-6 items-center'>
+                  <li className='flex items-center gap-2 h-[36px] px-4 pb-4 border-b-[3px] border-orange-400'><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm font-semibold text-gray-700'>Overview</span></li>
+                  <li className='flex items-center gap-2 h-[36px] px-4 pb-4 '><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm font-semibold text-gray-700'>Repositories</span><span className='bg-gray-100 px-2 rounded-full text-sm'>64</span></li>
+                  <li className='flex items-center gap-2 h-[36px] px-4 pb-4 '><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm font-semibold text-gray-700'>Projects</span></li>
+                  <li className='flex items-center gap-2 h-[36px] px-4 pb-4 '><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm font-semibold text-gray-700'>Packages</span></li>
+                  <li className='flex items-center gap-2 h-[36px] px-4 pb-4 '><IonIcon name='business-outline' className='text-[18px] text-gray-500'/><span className='text-sm font-semibold text-gray-700'>Starts</span></li>
+                </ul>
+              </div>
+              <div className='w-full p-[20px] mt-[20px]'>
+                <div className='border-[1px] rounded-md p-[20px]'>
+                  <h1>Welcome</h1>
+                </div>
+              </div>
             </div>
           </div>
          </main>
